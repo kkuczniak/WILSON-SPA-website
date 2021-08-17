@@ -3,6 +3,7 @@ import Forms from '../components/Forms';
 import styled from 'styled-components';
 
 const FooterContainer = styled.div`
+  margin-top: 200px;
   background: #566351;
   height: 1000px;
 `;

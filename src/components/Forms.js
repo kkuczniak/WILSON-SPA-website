@@ -78,7 +78,10 @@ export default function ContactForm() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data, e) => {
+    e.target.reset();
+    console.log(data);
+  };
 
   return (
     <Form onSubmit={handleSubmit(onSubmit)}>
