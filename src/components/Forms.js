@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Form = styled.form`
   padding-top: 25px;
-  width: 50%;
+  width: 100%;
   margin: 30px;
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@ const Form = styled.form`
   line-height: 2;
 `;
 const InputContainer = styled.div`
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   /* transition-delay: 1s;
@@ -44,7 +44,7 @@ const Input = styled.input`
 `;
 const FormButton = styled.button`
   width: 120px;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #000;
   font-weight: 600;
   background-color: #fff;

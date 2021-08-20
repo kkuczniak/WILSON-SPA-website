@@ -59,7 +59,6 @@ const ImageSlider = ({
   ...props
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  console.log(currentSlide);
 
   function slideClick(slideIndex = currentSlide + 1) {
     const newSlideIndex = slideIndex >= images.length ? 0 : slideIndex;
