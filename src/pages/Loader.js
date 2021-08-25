@@ -33,7 +33,7 @@ export default function Loader() {
   return (
     <LoaderWrapper
       animate={{ x: '-100%' }}
-      transition={{ duration: 3, type: 'tween' }}
+      transition={{ duration: 3  , type: 'tween' }}
     >
       <h1>Touch of nature</h1>
       <h2>Perfect harmony</h2>

@@ -52,7 +52,7 @@ const StoryCardText = styled.p`
 
 const Story = () => {
   return (
-    <StoryContainer data-scroll-section>
+    <StoryContainer>
       <StoryTitle>WHAT WE GOT</StoryTitle>
       <StoryCardWrapper>
         <StoryCard>
