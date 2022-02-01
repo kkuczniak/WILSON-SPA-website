@@ -28,6 +28,7 @@ const InputContainer = styled.div`
 const Input = styled.input`
   width: 80%;
   display: flex;
+  outline: none;
   color: #fff;
   border-top: none;
   border-left: none;
