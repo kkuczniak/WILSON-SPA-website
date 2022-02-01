@@ -9,6 +9,12 @@ const FooterContainer = styled.div`
   height: 90vh;
   position: relative;
   display: flex;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 150%;
+  }
 `;
 const FormsContainer = styled.div`
   width: 40%;
@@ -19,6 +25,11 @@ const FormsContainer = styled.div`
     font-size: 28px;
     color: white;
     padding-left: 25px;
+  }
+  @media screen and (max-width: 768px) {
+    position: static;
+    width: 100%;
+    height: 50%;
   }
 `;
 const FooterTextLeft = styled.div`
@@ -41,6 +52,17 @@ const FooterTextLeft = styled.div`
     display: flex;
     text-decoration: none;
     color: white;
+  }
+  @media screen and (max-width: 768px) {
+    position: static;
+    margin: 30px;
+    height: 50%;
+    h4 {
+      font-size: 22px;
+    }
+    a {
+      padding-top: 50px;
+    }
   }
 `;
 

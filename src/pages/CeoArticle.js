@@ -15,6 +15,9 @@ const CeoWrapperLeft = styled.div`
   background: #566351;
   position: relative;
   display: flex;
+  @media screen and (max-width: 768px) {
+    width: 25%;
+  }
 `;
 const CeoTextWrapper = styled.div`
   width: 30%;
@@ -23,6 +26,9 @@ const CeoTextWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `;
 const CeoTextLeft = styled.span`
   white-space: nowrap;
@@ -40,10 +46,17 @@ const CeoImageLeft = styled.div`
   padding-left: 15px;
   background-position: center;
   background-size: cover;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 const CeoWrapperRight = styled.div`
   width: 45%;
   padding: 200px 10% 100px 5%;
+  @media screen and (max-width: 768px) {
+    width: 75%;
+    padding: 20px 5% 50px 5%;
+  }
 `;
 const CeoTitle = styled.h2`
   font-size: calc(14px + 23 * ((100vw - 320px) / 1600));

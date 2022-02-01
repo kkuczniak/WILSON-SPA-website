@@ -8,9 +8,7 @@ import Loader from './Loader';
 import CeoArticle from './CeoArticle';
 import '@fontsource/playfair-display';
 import Footer from './Footer';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { motion, AnimatePresence } from 'framer-motion';
+
 import './style.css';
 
 // styles

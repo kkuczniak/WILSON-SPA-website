@@ -111,5 +111,3 @@ export default function ContactForm() {
     </Form>
   );
 }
-
-// https://seifi.org/reactjs/build-a-contact-form-in-gatsby-part-2-react-hook-form.html

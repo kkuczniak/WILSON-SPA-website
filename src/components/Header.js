@@ -15,7 +15,6 @@ const HeaderStyled = styled.header`
 const imgStyle = {
   objectFit: 'contain',
   width: '300px',
-  marginLeft: '50px',
 };
 
 export default function Header() {

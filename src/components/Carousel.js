@@ -8,6 +8,10 @@ const Wrapper = styled.div`
   flex-wrap: nowrap;
   overflow-x: hidden;
   position: relative;
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+    height: 40vh;
+  }
 `;
 
 const Slide = styled.div`

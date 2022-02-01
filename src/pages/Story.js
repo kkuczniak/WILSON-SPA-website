@@ -22,11 +22,19 @@ const StoryCardWrapper = styled.div`
   flex-wrap: nowrap;
   padding: 0 2%;
   width: 100%;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+  }
 `;
 const StoryCard = styled.div`
   width: 24%;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 const StoryCardNumber = styled.p`
   font-size: 24px;
@@ -48,6 +56,7 @@ const StoryCardText = styled.p`
   letter-spacing: 0.5px;
   font-weight: 300;
   font-size: 20px;
+  text-align: center;
 `;
 
 const Story = () => {

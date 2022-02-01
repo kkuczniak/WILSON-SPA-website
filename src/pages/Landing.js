@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import ImageSlider from '../components/Carousel';
@@ -32,6 +32,9 @@ const CarouselWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 const LandingText = styled(motion.div)`
   display: block;
@@ -40,6 +43,11 @@ const LandingText = styled(motion.div)`
   padding-right: 20px;
   font-size: calc(16px + 39 * ((100vw - 320px) / 1600));
   transform: scale(0.9, 1);
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    padding-top: 10px;
+    text-align: center;
+  }
 `;
 //motion var
 const textAnimation = {
@@ -78,11 +86,11 @@ export default function Landing() {
                 initial='initial'
                 animate='animate'
               >
-                BLABLABLABLA OHMYGOD
+                BLABLA BLABLA OHMYGOD
               </LandingText>
-              <LandingText variants={banner}>TAKE ME TO BLALALALA</LandingText>
-              <LandingText>BLABLABAL THE SPA</LandingText>
-              <LandingText>BLABLABAL DRATEWKA</LandingText>
+              <LandingText variants={banner}>TAKE ME TO BLALA LALA</LandingText>
+              <LandingText>BLABLA BAL THE SPA</LandingText>
+              <LandingText>BLABLA BAL DRATEWKA</LandingText>
             </h2>
           </CarouselWrapper>
         </LandingWrapperCenter>
